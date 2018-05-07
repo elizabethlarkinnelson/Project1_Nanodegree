@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:src="@drawable/travislogo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter"
+    />
+    <TextView
+        android:id="@+id/Street"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fairfield, CA 94533"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:textSize="15sp"
+        android:textColor="#000080"/>
+    <TextView
+        android:id="@+id/city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2751 De Ronde Drive"
+        android:layout_above="@+id/Street"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        android:textColor="#000080"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="707-888-5544"
+        android:layout_above="@+id/city"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        android:textColor="#000080"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reaching beyond boundaries to build a community of learners!"
+        android:layout_margin="15dp"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="serif"
+        android:textColor="	#DAA520"
+        />
+
+
+
+</RelativeLayout>
